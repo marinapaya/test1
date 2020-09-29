@@ -6,7 +6,10 @@ namespace test1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!!");
+            double s1;
+
+            s1 = EquationSolve.SolveEquation(0.1, 1.0, 2.0);
+            System.Console.WriteLine("s1 es" + s1);
         }
     }
 }

@@ -31,6 +31,11 @@ namespace test1
             
             s5 = utils.GetMaxValue(0, 5);
             System.Console.WriteLine("El valor mayor es " + s5);
+
+            bool s6;
+
+            s6 = utils.IsEven(6);
+            System.Console.WriteLine("¿Es s6 par? " + s6);
         }
     }
 }

@@ -18,7 +18,7 @@ namespace test1
             double aux;
             double length;
 
-            aux = (x * x) + (y * y) + (z * z;
+            aux = (x * x) + (y * y) + (z * z);
             length = System.Math.Sqrt(aux);
             return length;
         }

@@ -13,8 +13,13 @@ namespace test1
 
             double s2;
 
-            s2 = GeometrySolve.GetVectorLength(1.0, 1.0);
-            System.Console.WriteLine("La longitud del vector es " + s2);
+            s2 = GeometrySolve.GetVectorLength2(1.0, 1.0);
+            System.Console.WriteLine("La longitud del vector en 2D es " + s2);
+
+            double s3;
+
+            s3 = GeometrySolve.GetVectorLength3(1.0, 1.0, 1.0);
+            System.Console.WriteLine("La longitud del vector en 3D es " + s3);
         }
     }
 }

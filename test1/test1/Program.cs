@@ -36,6 +36,12 @@ namespace test1
 
             s6 = utils.IsEven(6);
             System.Console.WriteLine("¿Es s6 par? " + s6);
+
+            Ejercicios.Ejercicio1();
+
+            Ejercicios.Ejercicio2(10);
+
+            Ejercicios.Ejercicio3(5874);
         }
     }
 }

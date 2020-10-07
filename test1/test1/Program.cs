@@ -41,7 +41,16 @@ namespace test1
 
             Ejercicios.Ejercicio2(10);
 
-            Ejercicios.Ejercicio3(5874);
+            //Ejercicios.Ejercicio3(1);
+            //Ejercicios.Ejercicio3(2);
+
+            int i;
+            i = 2;
+            while (i <= 10)
+            {
+                Ejercicios.Ejercicio3(i);
+                i++;
+            }
         }
     }
 }

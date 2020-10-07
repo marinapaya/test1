@@ -34,15 +34,12 @@
 
         public static void Ejercicio3(int numerico)
         {
-            int i = 2;
-            while (i < numerico)
-            {
-                if (utils.IsPrime(i))
-                    System.Console.WriteLine(numerico);
-                i++;
-            }
-             
-            
+            bool es_primo = utils.IsPrime(numerico);
+           
+            if (es_primo)
+                System.Console.WriteLine("El numero " + numerico + " es primo");
+            else
+                System.Console.WriteLine("El numero " + numerico + " NO es primo");  
         }
 
     }

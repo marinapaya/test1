@@ -36,11 +36,11 @@
         public static void Ejercicio3(int numerico)
         {
             bool es_primo = utils.IsPrime(numerico);
-           
+
             if (es_primo)
                 System.Console.WriteLine("El numero " + numerico + " es primo");
             else
-                System.Console.WriteLine("El numero " + numerico + " NO es primo");  
+                System.Console.WriteLine("El numero " + numerico + " NO es primo");
         }
 
         //imprimir por pantalla x numeros
@@ -48,7 +48,7 @@
         {
             int i;
             i = 0;
-            while(i <= 100 )
+            while (i <= 100)
             {
                 System.Console.WriteLine(i);
                 i++;
@@ -103,14 +103,14 @@
             while (i <= 100)
             {
                 //if(i % 2 == 0)
-                if(utils.IsEven(i))
-                    System.Console.WriteLine(i);       
+                if (utils.IsEven(i))
+                    System.Console.WriteLine(i);
                 else
                     System.Console.WriteLine(-i);
                 i++;
             }
-            
-            
+
+
         }
 
         public static void Ejercicio10()
@@ -122,7 +122,7 @@
             int aux;
             System.Console.WriteLine(aa);
             System.Console.WriteLine(a);
-            
+
             while (i <= 100)
             {
                 System.Console.WriteLine(a + aa);
@@ -135,5 +135,17 @@
 
 
         }
+
+        public static void Ejercicio11( int count)
+        {
+            int i = 0
+            while (count = )
+            {
+
+            }
+
+        }
+
+
     }
 }

@@ -147,6 +147,14 @@
 
         }
 
+        public static void Ejercicio12(int count)
+        {
+            for (int i = 0; i < count; i++)
+            {
+                System.Console.Write("*");
+            }
+        }
+
 
     }
 }

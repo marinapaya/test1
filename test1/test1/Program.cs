@@ -64,8 +64,11 @@ namespace test1
 
             // Ejercicios.Ejercicio9();
 
-            Ejercicios.Ejercicio10();
+            //Ejercicios.Ejercicio10();
 
+            //Ejercicios.Ejercicio11(2);
+
+            Ejercicios.Ejercicio12(5);
 
         }
     }

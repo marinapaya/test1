@@ -68,7 +68,63 @@ namespace test1
 
             //Ejercicios.Ejercicio11(2);
 
-            Ejercicios.Ejercicio12(5);
+            //Ejercicios.Ejercicio12(5);
+
+            //EJERCICIOSEXAMEN.Ejercicio1(1, 2);
+
+            //EJERCICIOSEXAMEN.Ejercicio2(1.2, 2.2);
+
+            //EJERCICIOSEXAMEN.Ejercicio3(1, 2);
+
+            //EJERCICIOSEXAMEN.Ejercicio4(1, 2);
+
+            //EJERCICIOSEXAMEN.Ejercicio5(1, 2);
+
+            //EJERCICIOSEXAMEN.Ejercicio6(2, 2, 3);
+
+            //EJERCICIOSEXAMEN.Ejercicio7(13);
+
+            //EJERCICIOSEXAMEN.Ejercicio8(13);
+
+            //EJERCICIOSEXAMEN.Ejercicio9(13);
+
+            //EJERCICIOSEXAMEN.Ejercicio11(5);
+
+            //EJERCICIOSEXAMEN.Ejercicio12(5);
+
+            //EJERCICIOSEXAMEN.Ejercicio13(1,2,3,4,5,6,7,8,9);
+
+            //EJERCICIOSEXAMEN.Ejercicio15(5);
+
+            //EJERCICIOSEXAMEN.Ejercicio16(5);
+
+            //EJERCICIOSEXAMEN.Ejercicio17(5);
+
+            //EJERCICIOSEXAMEN.Ejercicio18(5);
+
+            //EJERCICIOSEXAMEN.Ejercicio19(7);
+
+            //EJERCICIOSEXAMEN.Ejercicio20(7);
+
+            //EJERCICIOSEXAMEN.Ejercicio21(7);
+
+            while (true)
+            {
+                for(int i = 0; i < 10; i++)
+                {
+                    EJERCICIOSEXAMEN.Ejercicio20(i);
+                    System.Threading.Thread.Sleep(1);
+                    System.Console.Clear();
+                }
+            }
+
+
+
+
+
+
+
+
 
         }
     }

@@ -259,13 +259,75 @@ namespace test1
 
         //Hacer una funcion que devuelva 2 elevado a n, siendo
         //n el parametro que recibe la funcion
-        public static int Ejercicio21(int n)
+        public static int Potencia2(int n)
         {
             int result = 1;
             for (int i = 0; i < n; i++)
                 result *= 2;
             return result;
         }
+        //Hacer la bandera de estados unidos
+        public static void BanderaEEUU()
+        {
+            for (int f = 0; f < 17; f++)
+            {
+                for (int c = 0; c < 70; c++)
+                {
+                    if (0 <= c && c <= 10 && 0 <= f && f <= 10)
+                    {
+                        int flag = f + c;
+                        if ((flag % 2) == 0)
+                            System.Console.Write("+");
+                        else
+                            System.Console.Write(" ");
+                    }
+                    else if ((f % 4) < 2)
+                    {
+                        System.Console.Write("*");
+                    }
+                    else
+                    {
+                        System.Console.Write(" ");
+                    }
+                }
+               System.Console.WriteLine();
+            }
+        }
+        //hacer una funcion que devuelva la distancia entre dos puntos 2D
+        public static double Distance2D(double x1, double y1, double x2, double y2)
+        {
+            double vx = x2 - x1;
+            double vy = y2 - y1;
 
+            return System.Math.Sqrt(vx * vx + vy * vy);
+        }
+
+        public static void BanderaJapon()
+        {
+            for (int f = 0; f < 15; f++)
+            {
+                for(int c = 0; c < 70; c++)
+                {
+                    if (f == 0 || f == 14 || c == 0 || c == 69)
+                        System.Console.Write("*");
+                    else if (Distance2D(35, 7, c, f) <= 3)
+                        System.Console.Write(".");
+                    else
+                        System.Console.Write(" ");
+                }
+                System.Console.WriteLine();
+            }
+        }
+
+        //Implementa una funcion que devuelva el sumatorio de un numero
+        public static int Sumatorio(int n)
+        {
+            
+            int i;
+            int result = 0;
+            for (i = 1; i <= n; i++)      
+              result += i;
+            return result;
+        }
     }
 }

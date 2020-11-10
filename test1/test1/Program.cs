@@ -108,24 +108,23 @@ namespace test1
 
             //EJERCICIOSEXAMEN.Ejercicio21(7);
 
-            while (true)
-            {
-                for(int i = 0; i < 10; i++)
-                {
-                    EJERCICIOSEXAMEN.Ejercicio20(i);
-                    System.Threading.Thread.Sleep(1);
-                    System.Console.Clear();
-                }
-            }
+            //while (true)
+            //{
+            //for (int i = 0; i < 10; i++)
+            //{
+            //EJERCICIOSEXAMEN.Ejercicio20(i);
+            //System.Threading.Thread.Sleep(1);
+            //System.Console.Clear();
 
+            //EJERCICIOSEXAMEN.BanderaEEUU();
 
+            //EJERCICIOSEXAMEN.Distance2D(5, 6, 2, 8);
 
+            //EJERCICIOSEXAMEN.BanderaJapon();
 
-
-
-
+            EJERCICIOSEXAMEN.Sumatorio(5);
 
 
         }
-    }
+    }     
 }
